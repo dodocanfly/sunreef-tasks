@@ -1,0 +1,13 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Task 1 - CallbackServiceTest">
+            <directory>./src/Task1/Tests/</directory>
+        </testsuite>
+        <testsuite name="Task 2 - DatetimeServiceTest">
+            <directory>./src/Task2/Tests/</directory>
+        </testsuite>
+        <testsuite name="Task 4 - SunReefValidatorTest">
+            <directory>./src/Task4/Tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
